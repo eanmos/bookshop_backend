@@ -1,0 +1,12 @@
+[Unit]
+Description=Book Shop Back-End
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root/bookshop-backend/
+ExecStart=/usr/bin/npm start
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

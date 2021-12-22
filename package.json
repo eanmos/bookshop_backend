@@ -1,0 +1,19 @@
+{
+  "name": "bookshop-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "UNLICENSE",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.2.2",
+    "uuid": "^8.3.2"
+  }
+}
